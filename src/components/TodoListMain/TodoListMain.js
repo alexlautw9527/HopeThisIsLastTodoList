@@ -38,8 +38,6 @@ const TodolistMain = () => {
         )
     }
 
-
-
     const deleteDoneTodoHandler = () => {
         setTodoArr(prevArr => prevArr.filter(ele => ele['isDone'] === false))
     }
@@ -54,7 +52,6 @@ const TodolistMain = () => {
             return ele['isDone'] === true
         }
     })
-    useEffect(() => { console.log(todoArr) }, [todoArr])
 
     return (
         <div className='todoList_Content'>
@@ -83,8 +80,6 @@ const TodolistMain = () => {
                                 )
                             })
                         }
-
-
                     </ul>
                     <div className="todoList_statistics">
                         <p> {todoNum} 個未完成項目</p>
@@ -92,11 +87,7 @@ const TodolistMain = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-
     )
 }
 

@@ -8,7 +8,6 @@ const AddTodo = ({ onAddTodo }) => {
         setInputText(e.target.value)
     }
 
-
     return (
         <>
             <div className="inputBox">

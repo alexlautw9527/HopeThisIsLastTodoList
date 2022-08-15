@@ -6,8 +6,6 @@ const TodoListPagination = ({ onChangePagination, paginationStatus }) => {
         { 'data-page': 'done', 'text': '已完成' },
     ]
 
-
-
     return (
         <>
             <ul className="todoList_tab">
