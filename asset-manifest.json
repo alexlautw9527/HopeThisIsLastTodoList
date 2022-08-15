@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HopeThisIsTheLastTodoList/static/css/main.d142fb35.css",
+    "main.js": "/HopeThisIsTheLastTodoList/static/js/main.00248168.js",
+    "index.html": "/HopeThisIsTheLastTodoList/index.html",
+    "main.d142fb35.css.map": "/HopeThisIsTheLastTodoList/static/css/main.d142fb35.css.map",
+    "main.00248168.js.map": "/HopeThisIsTheLastTodoList/static/js/main.00248168.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d142fb35.css",
+    "static/js/main.00248168.js"
+  ]
+}
